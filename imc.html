@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="imc.css">
+    <title>Health Track - IMC</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-light" style="background-color: #FF2970;">
+            <a class="navbar-brand">Índice de Massa Corporal - IMC</a>
+        </nav><br><br>
+      </header>
+      
+      <main class="container-fluid">
+          <label for="newweight">Novo Peso:</label>
+          <input type="number" class="form-control"
+          id="newweight" placeholder="90 kg" required><br>
+
+          <label for="newheight">Nova Altura:</label>
+          <input type="text" class="form-control"
+          id="newheight" placeholder="1,80 m"><br>
+
+          <label for="data">Data:</label>
+          <input type="date" class="form-control"
+          id="data" placeholder="12/05/2020"><br><br>
+       
+          <button type="button" class="btn btn-dark">Calcular IMC</button><br><br>
+
+          <label for="imc">Seu IMC é :</label>
+          <input type="text" class="form-control"
+          id="imc" placeholder="27,7 Sobrepeso" disabled><br><br>
+          
+          <a href="dashboard.html">
+            <button type="button" class="btn btn-dark">Voltar ao Menu</button>
+          </a>
+
+      </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

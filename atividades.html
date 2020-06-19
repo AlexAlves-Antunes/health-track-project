@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="atividades.css">
+    <title>Health Track - Atividades Fisícas</title>
+  </head>
+  <body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-light" style="background-color: #FF2970;">
+            <a class="navbar-brand">Atividades Fisícas</a>
+        </nav>
+      </header><br><br>
+      
+      <main class="container-fluid">
+          <form>Escolha a atividade: 
+              <select name="atividade" id="atividade">
+                  <option value="Ci">Ciclismo</option>
+                  <option value="Co">Corrida</option>
+                  <option value="Ca">Caminhada</option>
+                  <option value="N" selected>Natação</option>
+                  <option value="M">Musculação</option>
+                  <option value="D">Dança</option>
+                  <option value="P">Pilates</option>
+                  <option value="Y">Yoga</option>
+                  <option value="AM">Artes Marciais</option>
+                  <option value="O">Outra Atividade</option>
+              </select><br><br>
+            </form>
+
+            <label for="data">Data:</label>
+            <input type="date" class="form-control"
+            id="data" placeholder="12/05/2020"><br>
+
+            <label for="time">Tempo da atividade:</label>
+            <input type="time" class="form-control"
+            id="time" placeholder="01:30"><br><br>
+
+            <button type="button" class="btn btn-dark">Calcular Consumo de Calorias</button><br><br>
+
+            <label for="kcal">Seu consumo foi:</label>
+            <input type="text" class="form-control"
+            id="kcal" placeholder="900 kcal" disabled><br><br>
+           
+          <a href="dashboard.html">
+            <button type="button" class="btn btn-dark">Voltar ao Menu</button>
+          </a>
+
+      </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
